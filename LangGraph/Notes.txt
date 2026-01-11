@@ -1,0 +1,24 @@
+GRAPH:
+
+It is a collection of nodes, edges, state(data).
+
+NODES:
+
+These are user defined function that perform specific tasks.
+for eg: Receive a text. Generate a response from llm
+
+EDGES:
+
+These are user defined functions that route the data or state to the corresponding nodes.
+Edges help us navigate through the nodes.
+
+
+CONDITIONAL EDGES:
+
+These are the edges with conditions. Two nodes can be connected through conditional edges to control the navigation
+between the nodes.
+
+
+STATE:
+
+A state is a data. Sometimes it is user input or collection of system, human, ai messages.
