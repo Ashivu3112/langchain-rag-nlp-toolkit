@@ -1,0 +1,18 @@
+Pine cone is vector data base store. It is used to store vector embeddings.
+These vector embeddings can be used to retrieve the desired data or query
+
+Follow the steps below to upload vector embeddings in pinecone
+
+1. First we need to create an index on pinecone server to store records.
+2. Create a pinecone api key
+3. Connect to pinecone server through pinceone api key
+4. create vector embeddings of the data using any of the models.
+5. The dimensions of the embedding model's should match with the pinecone index's dimensions
+6. The vector database expects data mostly in a tuple format for better retrival
+7. format : vectors_to_upsert = (id: str, embeddings : list, metadata: str | list[str] )
+8. Once formatting is properly done, we can upload the data to the pinecone using index.upsert(vectors = vectors_to_upsert)
+9. query = index.query(query_embedding, top_k = 10) is used to retrive the query using semantic search
+
+Note:
+Delete an index also deletes all the records stored in the index
+
