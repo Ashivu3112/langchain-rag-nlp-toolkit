@@ -39,23 +39,9 @@ A comprehensive repository containing implementations, tutorials, and resources 
 - **Performance Optimization**: Indexing strategies (HNSW, IVF), quantization, and sharding
 - **Hybrid Search**: Combining vector similarity with keyword search
 
-### 6. Speech Recognition Module
-- **Audio Preprocessing**: Noise reduction, normalization, and feature extraction (MFCC, spectrograms)
-- **Speech-to-Text**: Whisper, Wav2Vec 2.0, and DeepSpeech implementations
-- **Real-time Processing**: Streaming audio recognition
-- **Language Detection**: Multi-lingual speech recognition
-- **Integration**: Connecting speech recognition with LLM pipelines
-
-### 7. LLM Engineering Module
+### 6. LLM Engineering Module
 - **Model Selection**: Comparing GPT-4, Claude, Llama, Mistral, and other models
 - **Prompt Engineering**: Zero-shot, few-shot, chain-of-thought, and advanced techniques
 - **Fine-tuning**: LoRA, QLoRA, full fine-tuning, and RLHF
 - **Optimization**: Quantization (GPTQ, AWQ), pruning, and distillation
 - **Deployment**: API serving, model versioning, and monitoring
-
-### 8. AI Ethics Module
-- **Fairness**: Bias detection, mitigation strategies, and fairness metrics
-- **Transparency**: Model interpretability, explainable AI (SHAP, LIME)
-- **Privacy**: Differential privacy, data anonymization, and PII detection
-- **Safety**: Adversarial robustness, red-teaming, and safety evaluations
-- **Regulatory Compliance**: GDPR, AI Act, and industry standards
