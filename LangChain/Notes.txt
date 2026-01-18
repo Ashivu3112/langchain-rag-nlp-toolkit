@@ -1,0 +1,12 @@
+LangChain Chaining Tutorial Notebook -
+
+Below is the comprehensive guide covering LangChain chaining techniques:
+
+1. SimpleSequentialChain - Basic sequential chaining where one chain's output feeds into the next (e.g., generate company name → create tagline)
+2. SequentialChain - Advanced chaining with multiple inputs/outputs across steps (e.g., play synopsis generation → review writing)
+3. Router Chains - Dynamic routing to different specialized chains based on input content (physics/math/history question routing)
+4. LCEL (LangChain Expression Language) - Modern pipe-based chaining syntax for cleaner, more Pythonic code
+5. Parallel Execution - Running multiple chains simultaneously and combining results (pros/cons analysis)
+
+Prerequisites: langchain, langchain-openai, langchain-community
+Requirements: OpenAI API key
